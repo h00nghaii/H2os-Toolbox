@@ -7,7 +7,6 @@
 - ☁️ Google Photos unlimited backup.
 - 🧰 Payload dumper integration.
 - 🎮 Unlock high-FPS modes in games.
-- 📊 Overlay display for FPS and CPU.
 
 ## 🙏 Credits
 
