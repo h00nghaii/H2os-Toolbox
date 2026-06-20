@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "commands": {
+    "cmd_gemini": "am start -n $(cmd package resolve-activity --brief com.google.android.apps.bard | tail -n 1)",
+    "cmd_camera": "am start -a android.media.action.STILL_IMAGE_CAMERA",
+    "cmd_youtube_revanced": "am start -n $(cmd package resolve-activity --brief app.revanced.android.youtube | tail -n 1)",
+    "cmd_recorder": "am start -n $(cmd package resolve-activity --brief com.oneplus.soundrecorder | tail -n 1); sleep 0.4; input tap 620 2500",
+    "cmd_translate": "am start -n $(cmd package resolve-activity --brief com.google.android.apps.translate | tail -n 1)",
+    "cmd_flashlight": "if [ $(cat /sys/class/leds/white:flash-1/brightness 2>/dev/null || echo 0) -eq 0 ]; then echo 60 > /sys/class/leds/white:flash-1/brightness; echo 60 > /sys/class/leds/yellow:flash-0/brightness; echo 1 > /sys/class/leds/led:switch_0/brightness; else echo 0 > /sys/class/leds/white:flash-1/brightness; echo 0 > /sys/class/leds/yellow:flash-0/brightness; echo 0 > /sys/class/leds/led:switch_0/brightness; fi",
+    "cmd_ringer": "sh /data/local/tmp/h2ostoolbox/ringer.sh"
+  }
+}
