@@ -1,15 +1,14 @@
 {
   "TYPE": "user",
   "TAGS": "release-keys",
-  "ID": "CP1A.260505.005",
+  "ID": "CP2A.260605.012",
   "BRAND": "google",
-  "DEVICE": "mustang",
-  "FINGERPRINT": "google/mustang/mustang:16/CP1A.260505.005/15081906:user/release-keys",
+  "DEVICE": "comet",
+  "FINGERPRINT": "google/comet/comet:17/CP2A.260605.012/15430684:user/release-keys",
   "MANUFACTURER": "Google",
-  "MODEL": "Pixel 10 Pro XL",
-  "PRODUCT": "mustang",
-  "RELEASE": "16",
-  "SECURITY_PATCH": "2026-05-05",
-  "DEVICE_INITIAL_SDK_INT": "21"
+  "MODEL": "Pixel 9 Pro Fold",
+  "PRODUCT": "comet",
+  "RELEASE": "17",
+  "SECURITY_PATCH": "2026-06-05",
+  "DEVICE_INITIAL_SDK_INT": "34"
 }
-
